@@ -59,12 +59,19 @@
                 <div class="row-two-fields">
                     <div class="field">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password">
+                        <input type="password" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" id="password">
                     </div>
                     <div class="field">
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password">
+                        <input type="password" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" id="confirm-password">
                     </div>
+                    <!-- With the regex above :
+                        The password length must be greater than or equal to 8
+                        The password must contain one or more uppercase characters
+                        The password must contain one or more lowercase characters
+                        The password must contain one or more numeric values
+                        The password must contain one or more special characters
+                    -->
                 </div>
             </form>
         </div>
