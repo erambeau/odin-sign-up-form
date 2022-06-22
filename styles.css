@@ -89,6 +89,8 @@ html, body {
   font-size: 36px;
 }
 
+/* Form */
+
 .form-inscription {
   display: flex;
   flex-direction: column;
@@ -123,5 +125,34 @@ html, body {
 .field > label {
   color: rgb(50,50,50);
   letter-spacing: 1px;
-  font-size: 14px;
+  font-size: 14 px;
+}
+
+
+/* Button & Already have an account */
+
+.button-submit-create-account {
+  display: flex;
+  background-color: #596D48;
+  margin: 30px auto 0 5%;
+  color: white;
+  border-radius: 10px;
+  height: 50px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#already-have-account {
+  color: rgb(50, 50, 50);
+  font-size: 20px;
+  margin: 10px auto 0 5%;
+}
+
+#already-have-account > a {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
 }
