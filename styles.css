@@ -5,7 +5,7 @@
 
 html, body {
   display: flex;  
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(210, 210, 210);
   height: 100%;
   width: 100%;
 }
@@ -15,7 +15,7 @@ html, body {
 
 .odin-headband {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.08);
   height: 15%;
   width: 100%;
   margin-top: 10%;
@@ -35,7 +35,7 @@ html, body {
   font-family: "Norse-Bold";
   margin-left: 5px;
   align-self: center;
-  font-size: 100px;
+  font-size: 150px;
   max-width: 50px;
 
 }
@@ -78,13 +78,50 @@ html, body {
   display: flex;
   flex-direction: column;
   height: 100%;
-
 }
 
+.right-presentation {
+  display: flex;
+  flex-direction: column;
+  margin: 10% 30% 0 5%;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 36px;
+}
 
+.form-inscription {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 7%;
+  padding: 3% 30% 3% 5%;
+  gap: 30px;
+}
 
-  
-h1 {
-  color: navy;
-  margin-left: 20px;
+#letsdothis {
+  font-size: 30px;
+  color: rgb(50,50,50);
+}
+
+.content-six-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.row-two-fields {
+  display: flex;
+  gap: 10%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field > label {
+  color: rgb(50,50,50);
+  letter-spacing: 1px;
+  font-size: 14px;
 }
