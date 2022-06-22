@@ -1,6 +1,68 @@
+@font-face {
+  font-family: Norse-Bold;
+  src: url('fonts/Norse-Bold.otf');
+}
+
 body {
-    background-color: rgb(230, 230, 230);
-  }
+  display: flex;  
+  background-color: rgb(230, 230, 230);
+}
+
+
+/********** ABSOLUTE PART ***********/
+
+.odin-headband {
+  display: flex;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 5%;
+  width: 100%;
+  margin-top: 7%;
+  padding: 1% 6%;
+}
+
+
+.logo-ODIN {
+  display: flex;
+}
+
+
+.main-ODIN {
+  display: flex;
+  color: white;
+  font-family: "Norse-Bold";
+  margin-left: 5px;
+  align-self: center;
+  font-size: 40px;
+
+}
+
+
+
+/*********** LEFT PART ***********/
+
+.left-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-leafs {
+  height: auto;
+  width: auto;
+  max-width: 50%;
+}
+
+
+
+/*********** RIGHT PART ***********/
+
+.right-part {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
   
 h1 {
   color: navy;
